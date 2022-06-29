@@ -1,7 +1,7 @@
 format_version: 4
 pipelines:
-  gp-registrations-mi-forwarder:
-    group: repository
+  'prm-repo-gp-registrations-mi-forwarder':
+    group: deductions
     label_template: '${git[:8]}'
     materials:
       git:
