@@ -83,10 +83,11 @@
    </suppress>
     <suppress>
         <notes><![CDATA[
-        false positive CVE-2021-4277 is not related to package
+        false positive CVEs not related to package
    ]]></notes>
         <packageUrl regex="true">^pkg:maven/software\.amazon\.awssdk/json\-utils@.*$</packageUrl>
         <cve>CVE-2021-4277</cve>
+        <cve>CVE-2022-45688</cve>
     </suppress>
     <suppress>
         <notes><![CDATA[
